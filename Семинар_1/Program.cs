@@ -5,10 +5,12 @@ Console.Clear();
 Console.WriteLine("Введите число:");
     
 string input = Console.ReadLine();
-if(input == ""){
+if(input == "")
+{
     Console.Write("Ничего не было введено!");
 }
-else{
+else
+{
 int num = Convert.ToInt32(input);
 
 int sqr = num * num;
