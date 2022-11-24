@@ -1,0 +1,15 @@
+C:\Users\Анютка\Desktop\)))))\Обучение\VSCode\Семинар_2\Example_4\bin\Debug\net6.0\Example_4.exe
+C:\Users\Анютка\Desktop\)))))\Обучение\VSCode\Семинар_2\Example_4\bin\Debug\net6.0\Example_4.deps.json
+C:\Users\Анютка\Desktop\)))))\Обучение\VSCode\Семинар_2\Example_4\bin\Debug\net6.0\Example_4.runtimeconfig.json
+C:\Users\Анютка\Desktop\)))))\Обучение\VSCode\Семинар_2\Example_4\bin\Debug\net6.0\Example_4.dll
+C:\Users\Анютка\Desktop\)))))\Обучение\VSCode\Семинар_2\Example_4\bin\Debug\net6.0\Example_4.pdb
+C:\Users\Анютка\Desktop\)))))\Обучение\VSCode\Семинар_2\Example_4\obj\Debug\net6.0\Example_4.csproj.AssemblyReference.cache
+C:\Users\Анютка\Desktop\)))))\Обучение\VSCode\Семинар_2\Example_4\obj\Debug\net6.0\Example_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Анютка\Desktop\)))))\Обучение\VSCode\Семинар_2\Example_4\obj\Debug\net6.0\Example_4.AssemblyInfoInputs.cache
+C:\Users\Анютка\Desktop\)))))\Обучение\VSCode\Семинар_2\Example_4\obj\Debug\net6.0\Example_4.AssemblyInfo.cs
+C:\Users\Анютка\Desktop\)))))\Обучение\VSCode\Семинар_2\Example_4\obj\Debug\net6.0\Example_4.csproj.CoreCompileInputs.cache
+C:\Users\Анютка\Desktop\)))))\Обучение\VSCode\Семинар_2\Example_4\obj\Debug\net6.0\Example_4.dll
+C:\Users\Анютка\Desktop\)))))\Обучение\VSCode\Семинар_2\Example_4\obj\Debug\net6.0\refint\Example_4.dll
+C:\Users\Анютка\Desktop\)))))\Обучение\VSCode\Семинар_2\Example_4\obj\Debug\net6.0\Example_4.pdb
+C:\Users\Анютка\Desktop\)))))\Обучение\VSCode\Семинар_2\Example_4\obj\Debug\net6.0\Example_4.genruntimeconfig.cache
+C:\Users\Анютка\Desktop\)))))\Обучение\VSCode\Семинар_2\Example_4\obj\Debug\net6.0\ref\Example_4.dll
