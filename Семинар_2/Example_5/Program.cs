@@ -14,3 +14,8 @@ int num2 = Convert.ToInt32(Console.ReadLine());
 if (num1 == num2*num2) Console.WriteLine($"Число {num1} является квадратом числа {num2}.");
 else if (num2 == num1*num1) Console.WriteLine($"Число {num2} является квадратом числа {num1}.");
 else Console.WriteLine($"Числа {num1} и {num2} не являются квадратами друг друга.");
+
+//Второй вариант решения
+//Console.WriteLine(num1 == num2*num2 || num2 == num1*num1 
+//? $"Числа {num1} и {num2} являются взаимными квадратами."
+//: $"Числа {num1} и {num2} не являются квадратами друг друга.");
