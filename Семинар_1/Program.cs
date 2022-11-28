@@ -4,7 +4,7 @@ Console.Clear();
 
 Console.WriteLine("Введите число:");
     
-string input = Console.ReadLine();
+string ? input = Console.ReadLine();
 if(input == "")
 {
     Console.Write("Ничего не было введено!");
