@@ -1,32 +1,48 @@
-﻿// Напишите программу, которая принимает на вход координаты точки (X и Y), 
-//причем X ≠ 0 и Y ≠ 0 и выдаёт номер четверти плоскости, 
-//в которой находится эта точка.
+﻿//Напишите программу, которая принимает на вход координаты точки (X и Y), причем X ≠ 0 и Y ≠ 0 и выдаёт номер четверти плоскости, в которой находится эта точка.
 
 Console.Clear();
 
-Console.WriteLine("Введите Х:");
+Console.Write("Введите X:");
 int x = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Введите Y:");
+Console.Write("Введите Y:");
 int y = Convert.ToInt32(Console.ReadLine());
 
-if (x == 0 || y == 0)
-{
-    Console.WriteLine("Не соблюдено условие");
+bool isPossible = IsPossibleGetQuarter(x,y);
+
+if(isPossible){
+    Console.WriteLine(GetQuarterByCoordinates(x,y));
 }
-if (x > 0 && y > 0)
-{
-    Console.WriteLine("1");
+else{
+    Console.WriteLine("Не соответствует условию");
 }
-else if (x < 0 && y > 0)
+
+
+int GetQuarterByCoordinates(int coordX, int coordY)
 {
-    Console.WriteLine("2");
+    if (coordX > 0 && coordY > 0)
+    {
+        return 1;
+    }
+    else if (coordX < 0 && coordY > 0)
+    {
+        return 2;
+    }
+    else if (coordX < 0 && coordY < 0)
+    {
+        return 3;
+    }
+    else
+    {
+        return 4;
+    }
 }
-else if (x < 0 && y < 0)
-{
-    Console.WriteLine("3");
-}
-else
-{
-    Console.WriteLine("4");
+
+bool IsPossibleGetQuarter(int coordX, int coordY){
+    if (coordX == 0 || coordY == 0)
+    {
+        return false;
+    }
+    else
+        return true;
 }
