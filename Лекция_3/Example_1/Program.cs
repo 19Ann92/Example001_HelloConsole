@@ -4,7 +4,7 @@ void Method1()
 {
     Console.WriteLine("Автор ...");
 }
-//Method1();
+Method1();
 
 
 //Вид 2 - ничего не возвращают, но могут принимать какие то аргументы
@@ -13,7 +13,7 @@ void Method2(string msg)
 {
     Console.WriteLine(msg);
 }
-//Method2(msg: "Текст сообщения");
+Method2(msg: "Текст сообщения");
 
 void Method21(string msg, int count)
 {
@@ -24,8 +24,8 @@ void Method21(string msg, int count)
         i++;
     }
 }
-//Method21(msg: "Текст", count: 4);
-//Method21(count: 4, msg: "Новый текст");
+Method21(msg: "Текст", count: 4);
+Method21(count: 4, msg: "Новый текст");
 
 //Вид 3 - что то возвращают, но ничего не принимают
 
@@ -34,7 +34,7 @@ int Method3()
     return DateTime.Now.Year;
 }
 int year = Method3();
-//Console.WriteLine(year);
+Console.WriteLine(year);
 
 
 //Вид 4 - Что то принимают и что то возвращают
@@ -65,8 +65,8 @@ string Method4(int count, string text)
     return result;
 }
 
-//string res = Method4(10, "z");
-//Console.WriteLine(res);
+string res = Method4(10, "z");
+Console.WriteLine(res);
 
 
 //Цикл в цикле
