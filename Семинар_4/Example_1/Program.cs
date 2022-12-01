@@ -9,7 +9,14 @@ Console.Clear();
 Console.Write("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine($"Сумма от 1 до числа {number} = {FindSumToLimit(number)}");
+if (IsPossitiveNumber(number))
+{
+    Console.WriteLine($"Сумма от 1 до числа {number} = {FindSumToLimit(number)}");
+}
+else
+{
+    Console.WriteLine("Число отрицательное");
+}
 
 int FindSumToLimit(int limit)
 {
@@ -19,4 +26,12 @@ int FindSumToLimit(int limit)
         sum += i;
     }
     return sum;
+}
+
+bool IsPossitiveNumber(int num)
+{
+    if (num > 0)
+        return true;
+    else
+        return false;
 }
