@@ -16,8 +16,6 @@ int max = Convert.ToInt32(Console.ReadLine());
 int[] array = FillArray(size, min, max);
 Console.WriteLine($"Исходный массив: [{string.Join(",", array)}]");
 
-//int[] FillArray(int sizeArray, int minValue, int maxValue);
-
 Console.WriteLine("Введите элемент для поиска в массиве: ");
 int search = Convert.ToInt32(Console.ReadLine());
 
